@@ -34,6 +34,7 @@ public class App {
         int quotient = divide(1, 1);
         System.out.println(quotient);
 
+        // Static method call with two parameters that returns a boolean
         boolean isEqual = isEqual(1, 1);
         System.out.println(isEqual);
     }
@@ -88,6 +89,7 @@ public class App {
         return z;
     }
 
+     // Static method with two parameters with a return type
       static boolean isEqual(int x, int y) {
          boolean z = (x == y);
          return z;
