@@ -25,14 +25,17 @@ public class App {
         // Static method call with two parameters that returns an int
         int difference = subtract(1, 1);
         System.out.println(difference);
-        
+
         // Static method call with two parameters that returns an int
         int product = multiply(1, 1);
         System.out.println(product);
 
-         // Static method call with two parameters that returns an int
-         int quotient = divide(1, 1);
-         System.out.println(quotient);
+        // Static method call with two parameters that returns an int
+        int quotient = divide(1, 1);
+        System.out.println(quotient);
+
+        boolean isEqual = isEqual(1, 1);
+        System.out.println(isEqual);
     }
 
     // Non-static method
@@ -72,8 +75,8 @@ public class App {
         int z = x - y;
         return z;
     }
-    
-          // Static method with two parameters with a return type
+
+      // Static method with two parameters with a return type
       static int multiply(int x, int y) {
         int z = x * y;
         return z;
@@ -84,4 +87,9 @@ public class App {
         int z = x / y;
         return z;
     }
+
+      static boolean isEqual(int x, int y) {
+         boolean z = (x == y);
+         return z;
+     }
 }
